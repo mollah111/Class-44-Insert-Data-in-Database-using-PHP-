@@ -1,0 +1,50 @@
+
+
+=====Configure Database=======
+
+mysqli ('hostname', 'user_name', 'password', 'database_name');
+
+
+function testName()
+{
+    $x = 10;
+    $y = 20;
+
+    $result = $x+$y;
+
+    return $result;
+}
+
+
+$finalValue = testName(); // 30
+
+
+==============Queries============
+
+SELECT * FROM students;
+
+mysqli_query($connection, $query);
+
+$i = 0;
+
+while(condition){
+    //Statement...
+    //increment/decrement
+}
+
+
+let associativeArray = { 'name': 'mohammad', 'roll': 1 }
+
+console.log(associativeArray['roll']);
+
+
+==============HTTP Method==============
+
+1. GET
+2. POST
+3. PUT
+4. DELETE
+
+===========INSERT Data==========
+
+INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Mr. Rezaul Islam', 2, 8, '01313783089', 'rezaul@gmail.com','Uttara, Dhaka');
